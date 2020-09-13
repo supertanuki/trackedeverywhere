@@ -1,0 +1,24 @@
+{
+  "name": "tracked-everywhere",
+  "version": "0.1.0",
+  "description": "Analyse Internet usage and find how much GAFAM are present.",
+  "main": "script.js",
+  "directories": {
+    "extension": "extension",
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "chrome-mock": "0.0.9",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "mocha test/test-script.js",
+    "coverage": "nyc mocha"
+  },
+  "author": "Richard Hanna",
+  "license": "MIT",
+  "dependencies": {}
+}
